@@ -6,8 +6,8 @@ const YesNo = () => {
     }
     return (
         <div>
-            <button onClick={clickHandler}>Yes</button>
-            <button>No</button>
+            <button className="Buttons" onClick={clickHandler}>Yes</button>
+            <button className="Buttons"> No </button>
         </div>
     )
 }
