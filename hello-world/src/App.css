@@ -29,32 +29,37 @@
 }
 
 .Love {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: skyblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: skyblue;
 }
 
 .YesButton {
-    color: deeppink;
-    background-color:rgb(131, 130, 130);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: large;
-    padding: 10px;
-    margin-right: 50px;
-    border-radius: 50%;
-    box-shadow: 10px 10px 40px 10px deeppink;
+  color: deeppink;
+  background-color: rgb(131, 130, 130);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: large;
+  padding: 10px;
+  /* margin-right: 50px; */
+  border-radius: 50%;
+  box-shadow: 10px 10px 40px 10px deeppink;
 }
 
 .NoButton {
-    color: saddlebrown;
-    background-color:rgb(131, 130, 130);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: large;
-    padding: 10px;
-    margin-left: 50px;
-    border-radius: 5%;
-    box-shadow: 10px 10px 40px 10px saddlebrown;
+  color: saddlebrown;
+  background-color: rgb(131, 130, 130);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: large;
+  padding: 10px;
+  /* margin-left: 50px; */
+  border-radius: 5%;
+  box-shadow: 10px 10px 40px 10px saddlebrown;
 }
-
+.counterLeft {
+  /* margin-right: 50px; */
+}
+.counterRight {
+  /* margin-left: 50px; */
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
