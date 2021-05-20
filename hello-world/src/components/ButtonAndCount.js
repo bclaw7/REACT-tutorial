@@ -13,6 +13,7 @@ const ButtonAndCount = (props) => {
         {props.bValue}
       </button>
       <div>{count}</div>
+      <p>hi there</p>
     </>
   );
 };
