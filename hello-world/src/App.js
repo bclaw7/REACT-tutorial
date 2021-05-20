@@ -13,7 +13,7 @@ import YesNo from "./components/YesNo";
 function App() {
 	return (
 		<div className="App">
-			<YesNo />
+			<YesNo name="Byron" />
 			{/*<ClassClick />*/}
 			{/* <FunctionClick /> */}
 			{/* <Counter /> */}
