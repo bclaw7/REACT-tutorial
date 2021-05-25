@@ -9,11 +9,25 @@ import Counter from "./components/Counter";
 import FunctionClick from "./components/FunctionClick";
 import ClassClick from "./components/ClassClick";
 import YesNo from "./components/YesNo";
+import EventBind from "./components/EventBind";
+import ParentComponent from "./components/ParentComponent";
+import UserGreeting from "./components/UserGreeting";
+import NameList from "./components/NameList";
+import Stylesheets from "./components/Stylesheets";
+import Form from "./components/Form";
+import LifecyleA from "./components/LifecyleA";
 
 function App() {
 	return (
 		<div className="App">
-			<YesNo name="Byron" />
+            <LifecyleA/>
+            {/* <Form/> */}
+            {/* <Stylesheets/> */}
+            {/* <NameList /> */}
+			{/* <YesNo name="Byron" /> */}
+            {/* <EventBind /> */}
+            {/* <ParentComponent/> */}
+            {/* <UserGreeting/> */}
 			{/*<ClassClick />*/}
 			{/* <FunctionClick /> */}
 			{/* <Counter /> */}
